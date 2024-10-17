@@ -5,7 +5,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "UPDATE testtable SET testField = 'I love India' WHERE id = 6";
+$sql = "UPDATE testtable SET testField = 'Hai' WHERE id = 15";
 
 if (mysqli_query($conn, $sql)) {
     echo "Record updated successfully";

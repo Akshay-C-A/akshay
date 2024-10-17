@@ -5,7 +5,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "DELETE FROM testtable WHERE id = 6";
+$sql = "DELETE FROM testtable WHERE id = 16";
 
 if (mysqli_query($conn, $sql)) {
     echo "Record deleted successfully";
